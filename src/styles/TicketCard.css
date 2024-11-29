@@ -1,0 +1,52 @@
+.ticket-card {
+    margin-bottom: 16px; /* Add spacing between tickets */
+    padding: 12px;
+    background-color: #ffffff; /* Card background */
+    border: 1px solid #e5e7eb; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.ticket-id {
+    font-size: 12px; /* Smaller font for ID */
+    color: #6b7280; /* Light gray */
+    margin-bottom: 4px; /* Space between ID and title */
+  }
+  
+  .ticket-title {
+    font-size: 16px; /* Slightly larger font for title */
+    font-weight: bold; /* Bold text for title */
+    color: #111827; /* Dark text color */
+    margin-bottom: 8px; /* Space between title and other elements */
+  }
+  
+
+.ticket-assignee {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #4f46e5; /* Indigo */
+    border-radius: 50%;
+    padding: 4px 8px;
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.ticket-footer {
+    font-size: 14px;
+    color: #6b7280; /* Gray */
+    border-top: 1px solid #d1d5db;
+    padding-top: 8px;
+}
